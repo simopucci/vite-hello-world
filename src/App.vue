@@ -1,5 +1,20 @@
-<script></script>
+<script>
+import AppTitle from "./components/AppTitle.vue";
+import AppHero from "./components/AppHero.vue";
 
-<template></template>
+export default {
+  components: {
+    AppTitle,
+    AppHero,
+  },
+};
+</script>
 
-<style></style>
+<template>
+  <AppTitle></AppTitle>
+  <AppHero></AppHero>
+</template>
+
+<style>
+@import url("./assets/main.css");
+</style>

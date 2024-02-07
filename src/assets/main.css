@@ -1,0 +1,14 @@
+.main-title {
+  text-align: center;
+  color: red;
+  font-size: 3rem;
+}
+
+img {
+  width: 500px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
